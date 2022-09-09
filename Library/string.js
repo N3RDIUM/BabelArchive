@@ -3,4 +3,4 @@ var chars = [];
 for (var i = 0; i < 65536; i++) {
     chars.push(String.fromCharCode(i));
 }
-// console.log(`Characters: ${chars.join('')}`);
+console.log(`Characters: ${chars.join('')}`);
